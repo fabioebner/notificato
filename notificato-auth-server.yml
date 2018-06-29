@@ -23,9 +23,9 @@ security:
             resource-ids: resources
             scope: read,write
 
-AUTH_DATABASE_IP=localhost
-AUTH_DATABASE_PORT=5432
-AUTH_DATABASE=db_auth_notificato
+AUTH_DATABASE_IP: localhost
+AUTH_DATABASE_PORT: 5432
+AUTH_DATABASE: db_auth_notificato
 spring:
     datasource:
         data: classpath:/sql/data.sql
