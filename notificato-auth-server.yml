@@ -33,7 +33,7 @@ spring:
         password: dna44100
         platform: postgres
         schema: classpath:/sql/schema.sql
-        url: jdbc:postgresql://localhost:5432/db_auth_notificato
+        url: jdbc:postgresql://${AUTH_DATABASE_IP}:${AUTH_DATABASE_PORT}/${AUTH_DATABASE}
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
